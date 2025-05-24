@@ -1,1 +1,0 @@
-# Clase23Mayo_NoSQL
