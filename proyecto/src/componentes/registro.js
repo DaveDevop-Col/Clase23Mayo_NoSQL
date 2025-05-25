@@ -5,7 +5,6 @@ import mostrarLogin from './login.js';
 
 export default function mostrarRegistro() {
   const app = document.getElementById("app");
-
   app.innerHTML = `
     <h2>Registro</h2>
     <input type="text" id="nombre" placeholder="Nombre"><br>
@@ -38,7 +37,7 @@ export default function mostrarRegistro() {
         fecha,
         telefono,
         ganados,
-        perdidos
+        perdidos,
       });
 
       alert('Usuario registrado correctamente');
